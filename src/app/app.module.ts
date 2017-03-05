@@ -5,9 +5,18 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
+import { HomeComponent } from './components/pages/home.component';
+import { AboutComponent } from './components/pages/about.component';
 
 @NgModule({
-  declarations: [ AppComponent, NavbarComponent ],
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    JumbotronComponent,
+    HomeComponent,
+    AboutComponent
+   ],
   imports: [ BrowserModule, FormsModule, HttpModule ],
   providers: [],
   bootstrap: [ AppComponent ]
